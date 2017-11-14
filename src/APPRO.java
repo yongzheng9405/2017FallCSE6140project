@@ -120,6 +120,9 @@ public class APPRO {
         int readline = 1;
         while(readline <= Integer.parseInt(res.get("0").get(0))){
             ln = br.readLine();
+            if(ln.equals("")){
+                ln = ln + -1;
+            }
             after_split = ln.split(" ");
             res.put(Integer.toString(readline),new ArrayList<String>(Arrays.asList(after_split)));
             readline++;
