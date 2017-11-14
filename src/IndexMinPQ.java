@@ -6,7 +6,7 @@
  *  Minimum-oriented indexed PQ implementation using a binary heap.
  *
  ******************************************************************************/
-package Graph;
+//package Graph;
 
 
 import java.util.Iterator;
